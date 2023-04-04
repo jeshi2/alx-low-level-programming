@@ -7,10 +7,10 @@
  * Return: numer of nodes
  */
 size_t listint_len(const listint_t *h){
-	size_t x = 0;
-	while (h){
-		h = h->next;
-		x++;
-	}
-	return (x);
+size_t x = 0;
+while (h){
+h = h->next;
+x++;
+}
+return (x);
 }
