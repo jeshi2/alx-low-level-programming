@@ -19,6 +19,8 @@ def num_wtr_neighbors(grid, i, j):
 
     return num
 
+"""dfined perimeter
+"""
 
 def island_perimeter(grid):
     """Returns the perimeter of the island in grid"""
