@@ -7,7 +7,6 @@
  *@value: the value to search for
  *Return: first index where value is located
  */
-
 int interpolation_search(int *array, size_t size, int value)
 {
 	size_t i, low, high;
@@ -37,5 +36,4 @@ int interpolation_search(int *array, size_t size, int value)
 			low = i + 1;
 	}
 	return (-1);
-
 }
